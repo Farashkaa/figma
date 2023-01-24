@@ -8,42 +8,43 @@
 }
 
 .container {
-    display: inline;
-    max-width: 1180px;
+    max-width: 1920px;
     margin: auto;
 }
 
 /* header starts */
 
+.menugeneral {
 
-header nav {
     display: flex;
-    justify-content: space-between;
-    padding-top: 33px;
+    justify-content: center;
     align-items: center;
-    padding-left: 210px;
+    padding: 24px 370px;
+    background: #F6F5F4;
+    box-shadow: inset 0px -1px 0px #E0E0E0;
+    text-decoration: none;
 }
 
-header .menu ul li {
+.menu ul li {
     display: inline;
     margin-right: 30px;
 }
 
-header .menu {
+.menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-grow: 0.2;
 }
 
-header .menu hr {
+.menu hr {
     width: 0px;
     height: 16.87px;
     border: 1.20466px solid #E0E0E0;
 }
 
-header .menu ul li a {
-    font-family: 'Montserrat';
+.menu ul li a {
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -55,14 +56,17 @@ header .menu ul li a {
 
 .signout {
     display: flex;
+    flex-direction: row;
     align-items: center;
+    padding-left: 40px;
+    flex-grow: 0.2;
 }
 
 .signout .AandAlex {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding-right: 30px;
+    padding-right: 20px;
 
 }
 
@@ -124,7 +128,31 @@ header .menu ul li a {
     border: none;
 }
 
-section .boy h2 {
+/* section boy */
+
+
+section .flex {
+
+    background-color: #F6F5F4;
+    display: flex;
+    align-items: center;
+    padding: 60px 320px;
+    background: #F6F5F4;
+    box-shadow: inset 0px -1px 0px #E0E0E0;
+    text-decoration: none;
+}
+
+section .umumiboy {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+
+
+
+section .flex h2 {
     display: flex;
     text-align: left;
     flex-direction: row;
@@ -140,22 +168,13 @@ section .boy h2 {
 
 }
 
-section .boy3d {
-    background-color: #F6F5F4;
-}
-
-section .boy {
-    padding-left: 369px;
-
-}
-
-section .boy h1 {
-    width: 531px;
+section .flex h1 {
+    /* width: 531px; */
     height: 201px;
     font-family: 'Dela Gothic One', cursive;
     font-style: normal;
     font-weight: 400;
-    font-size: 56px;
+    font-size: 45px;
     line-height: 120%;
     letter-spacing: -0.04em;
     color: #000000;
@@ -163,7 +182,7 @@ section .boy h1 {
 
 }
 
-section .boy h3 {
+section .flex h3 {
     margin-top: 30px;
     width: 396.89px;
     height: 50px;
@@ -177,23 +196,14 @@ section .boy h3 {
     padding-bottom: 20px;
 }
 
-section .flex {
-    padding-top: 109px;
-    display: flex;
-    align-items: left;
-    justify-content: space-evenly;
-    align-items: center;
 
-}
-
-section .flex img {
-
+section .flex .imgboy {
     width: 933px;
     height: 601px;
 
 }
 
-.flex a {
+section .flex a {
 
     width: 121px;
     height: 16px;
@@ -221,34 +231,16 @@ section .flex img {
 }
 
 
-.near {
-
-    display: flex;
-    align-items: left;
-
-}
-
-.near .near1 {
-
-    display: flex;
-    width: 40px;
-    height: 40px;
-}
-
-.general {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-.general1 {
+section .general {
 
     display: flex;
     flex-direction: row;
     align-items: center;
 
 }
+
+
+
 
 .general h2 {
 
@@ -266,31 +258,113 @@ section .flex img {
 
 }
 
-.hr {
-    width: 0px;
-    height: 48.78px;
-    border: 1.21942px solid #E0E0E0;
-    text-align: center;
+.firstnavicons .imgandp {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 50px;
 
 }
 
-.h2second {
-    padding-left: 180px;
+.firstnavicons .imgandp img {
+    padding-top: 10px;
 }
 
-.general2 {
+.firstnavicons .imgandp p {
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    /* identical to box height, or 40px */
+
+    letter-spacing: -0.02em;
+
+    color: #000000;
+}
+
+.firstnavicons .imgandp h4 {
+
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    /* identical to box height, or 40px */
+
+    letter-spacing: -0.02em;
+
+    color: #2B788B;
+}
+
+.firstandsecond {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+
+
+}
+
+.umumiboy .popwords h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    padding-left: 20px;
+    /* or 22px */
+
+    letter-spacing: -0.04em;
+
+    color: #585858;
+
+}
+
+.secondnavicons .secondimpandp {
 
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-left: 250px;
+    justify-content: center;
+    gap: 10px;
+    width: 90px;
+    height: 40px;
+    padding-left: 50px;
 
 }
 
-.near .near2 {
-    display: flex;
-    width: 40px;
-    height: 40px;
+.secondnavicons .secondimpandp img {
+    padding-top: 10px;
+}
+
+.secondnavicons .secondimpandp p {
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    /* identical to box height, or 40px */
+
+    letter-spacing: -0.02em;
+
+    color: #000000;
+}
+
+.secondnavicons .secondimpandp h4 {
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    /* identical to box height, or 40px */
+
+    letter-spacing: -0.02em;
+
+    color: #2B788B;
+
 }
 
 
@@ -304,7 +378,7 @@ section .flex img {
 
 }
 
-section .boy2{
+section .boy2 {
     display: flex;
     flex-direction: column;
 }
@@ -338,19 +412,89 @@ section .boy2{
 
 }
 
-.column{
-    padding-top: 80px;
+.column {
+    padding-top: 100px;
     display: flex;
+    
 }
 
+.flex2 .column .pink {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 14px 22px;
+    width: 129px;
+    height: 112px;
+
+    /* Primaty/Pink Light */
+
+    background: #F2D4DC;
+    border-radius: 14px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.04em;
+    color: #945069;
+    padding-top: 70px;
+
+}
+
+.flex2 .column .blue {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 14px 22px;
+    width: 172px;
+    height: 112px;
+
+
+    /* Primaty/Cyan Light */
+
+    background: #C3DCE3;
+    border-radius: 14px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #2B788B;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding-top: 70px;
+}
+
+
+.flex2 .column .one {
+    position: absolute;
+    
+}
+
+
+.flex2 .column .two {
+   
+    position: absolute;
+   
+}
 
 /* section 3 stars */
 
-.flex3
-{
+.flex3 {
     background-color: #F6F5F4;
-    
+
 }
+
 section .boy3 h2 {
     display: flex;
     text-align: left;
@@ -373,8 +517,8 @@ section .boy3 {
 }
 
 section .boy3 h1 {
-    width: 531px;
-    height: 201px;
+    /* width: 531px; */
+    /* height: 201px; */
     font-family: 'Dela Gothic One', cursive;
     font-style: normal;
     font-weight: 400;
@@ -409,15 +553,15 @@ section .flex3 {
 
 }
 
-section .flex3 img {
+/* section .flex3 img {
     
     background: transparent;
 
-}
+} */
 
 .flex3 a {
 
-    width: 121px;
+    width: 150px;
     height: 16px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -434,10 +578,106 @@ section .flex3 img {
     align-items: center;
     padding: 14px 22px;
     gap: 19px;
-    width: 165px;
+    /* width: 165px; */
     height: 44px;
     background: #C3DCE3;
     border-radius: 100px;
     text-decoration: none;
     margin-top: 32px;
 }
+/* section 4 */
+
+
+ .sectionfour {
+    display: flex;
+    padding-top: 77px;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+}
+
+section .boyandgirl {
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionfour h1 {
+    padding-top: 50px;
+    width: 474.46px;
+    height: 96px;
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #000000;
+
+}
+
+
+.sectionfour h3 {
+    padding-top: 80px;
+    width: 396.89px;
+    height: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #757575;
+
+}
+
+.sectionfour a{  
+    margin-top: 80px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14px 22px;
+gap: 19px;
+width: 165px;
+height: 44px;
+background: #C3DCE3;
+border-radius: 100px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+display: flex;
+align-items: center;
+letter-spacing: -0.04em;
+color: #2B788B;
+}
+
+/* footer */
+
+.foot{
+
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 10px;
+width: 1920px;
+height: 160px;
+background: #F6F5F4;
+}
+
+
+.foot .footmenu .home li{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 100%;
+color: #757575;
+
+}
+
+
+
+
+
